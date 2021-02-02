@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class FantasticView: UIView {
+class SuperAnimation: UIView {
     
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     var colorCounter = 0
