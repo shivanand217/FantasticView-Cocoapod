@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = 'FantasticView'
+    s.name = 'SuperAnimation'
     s.version = '0.1.0'
     s.summary = 'Fantastic Animation View'
     s.description = <<-DESC
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.author           = { 'Shiv Prakash' => 'shivakp2111@gmail.com' }
     s.source           = { :git => 'https://github.com/shivanand217/FantasticView-Cocoapod.git', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '10.0'
-    s.source_files = 'FantasticView/FantasticView.swift'
+    s.ios.deployment_target = '13.0'
+    s.source_files = 'FantasticView/*.swift'
 end
